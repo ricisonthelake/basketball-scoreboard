@@ -83,9 +83,9 @@ ol[role='list'] {
 }
 
 /* Set core root defaults */
-html:focus-within {
+/* html:focus-within {
     scroll-behavior: smooth;
-}
+} */
 
 /* Set core body defaults */
 body {
@@ -95,9 +95,9 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
+/* a:not([class]) {
     text-decoration-skip-ink: auto;
-}
+} */
 
 /* Make images easier to work with */
 img,
@@ -115,7 +115,7 @@ select {
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
     html:focus-within {
         scroll-behavior: auto;
     }
@@ -128,7 +128,7 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
-}
+} */
 
 @font-face {
     font-family: "Cursed Timer";
@@ -178,7 +178,7 @@ body {
     height: 6rem;
     margin: 0 8px;
     font-size: var(--fs-800);
-        color: #F94F6D;
+    color: #F94F6D;
 
 }
 
@@ -201,6 +201,7 @@ body {
         max-width: 75%;
     }
 }
+
 @media (min-width: 568px) {
     .container {
         height: 18em;
@@ -237,4 +238,3 @@ body {
         max-width: 40%;
     }
 }
-
